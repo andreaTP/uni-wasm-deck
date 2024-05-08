@@ -38,25 +38,10 @@
     <div class="slides">
       <section data-markdown>
         <textarea data-template>
-          # A gentle introduction to WebAssembly
+          # An introduction to WebAssembly
 
           <img src="./imgs/WebAssembly_Logo.svg" height="20%" width="20%" style="height: 20%; width: 20%;"></img>
         </textarea>
-      </section>
-
-      <section>
-        <div class="row">
-          <div class="col tiny">
-            <img style="width: 60%;" src="imgs/io2.png">
-          </div>
-          <div class="col tiny">
-            <h3>Andrea Peruffo</h3>
-
-            <p>@and_prf</p>
-            <img style="width: 50%;" src="imgs/red_hat_logo.svg">
-            <br />
-          </div>
-        </div>
       </section>
 
       <section>
@@ -74,9 +59,7 @@
       <section>
         <section data-markdown>
           <textarea data-template>
-            # What is WebAssembly
-
-            WebAssembly (sometimes abbreviated Wasm) defines **a portable binary-code format** and a corresponding text format for executable programs as well as software interfaces for facilitating interactions between such programs and their host environment.
+            WebAssembly (sometimes abbreviated Wasm) defines <span style="color:rgb(240, 41, 154)">**a portable binary-code format**</span> and a corresponding text format for executable programs as well as software interfaces for facilitating interactions between such programs and their host environment.
             
             [https://en.wikipedia.org/wiki/WebAssembly](https://en.wikipedia.org/wiki/WebAssembly)
           </textarea>
@@ -105,9 +88,7 @@
       <section>
         <section data-markdown>
           <textarea data-template>
-            # What is WebAssembly
-
-            WebAssembly (sometimes abbreviated Wasm) defines a portable binary-code format and a corresponding **text format** for executable programs as well as software interfaces for facilitating interactions between such programs and their host environment.
+            WebAssembly (sometimes abbreviated Wasm) defines a portable binary-code format and a corresponding <span style="color:rgb(240, 41, 154)">**text format**</span> for executable programs as well as software interfaces for facilitating interactions between such programs and their host environment.
             
             [https://en.wikipedia.org/wiki/WebAssembly](https://en.wikipedia.org/wiki/WebAssembly)
           </textarea>
@@ -138,9 +119,7 @@
       <section>
         <section data-markdown>
           <textarea data-template>
-            # What is WebAssembly
-
-            WebAssembly (sometimes abbreviated Wasm) defines a portable binary-code format and a corresponding text format for **executable programs** as well as software interfaces for facilitating interactions between such programs and their host environment.
+            WebAssembly (sometimes abbreviated Wasm) defines a portable binary-code format and a corresponding text format for <span style="color:rgb(240, 41, 154)">**executable programs**</span> as well as software interfaces for facilitating interactions between such programs and their host environment.
             
             [https://en.wikipedia.org/wiki/WebAssembly](https://en.wikipedia.org/wiki/WebAssembly)
           </textarea>
@@ -165,7 +144,7 @@
           <textarea data-template>
             # What is WebAssembly
 
-            WebAssembly (sometimes abbreviated Wasm) defines a portable binary-code format and a corresponding text format for executable programs as well as software interfaces for **facilitating interactions** between such programs and their host environment.
+            WebAssembly (sometimes abbreviated Wasm) defines a portable binary-code format and a corresponding text format for executable programs as well as software interfaces for <span style="color:rgb(240, 41, 154)">**facilitating interactions**</span> between such programs and their host environment.
             
             [https://en.wikipedia.org/wiki/WebAssembly](https://en.wikipedia.org/wiki/WebAssembly)
           </textarea>
@@ -231,22 +210,65 @@
         </section>
       </section>
 
-      <section>
-        <section data-markdown>
-          <textarea data-template>
-            # Language Native Runtimes
+      <!-- TODO: from here more about WebAssembly -->
 
-            <img style="width: 40%;" src="imgs/racingVSjeep.jpeg">
+      <!-- Second section about me and compilers -->
+      <section>
+        <div class="row">
+          <div class="col tiny">
+            <img style="width: 60%;" src="imgs/io2.png">
+          </div>
+          <div class="col tiny">
+            <h3>Andrea Peruffo</h3>
+
+            <p>@and_prf</p>
+            <p>#andreaTP</p>
+            <img style="width: 50%;" src="imgs/red_hat_logo.svg">
             <br />
+          </div>
+        </div>
+      </section>
 
-            The solution is a "language native" runtime
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Open Source
 
-            Note:
-            - We don't expect our runtime to replace the state-of-the-art runtimes
-            - But rather to fill in the gaps and maximize portability
-            - As well as provide a better developer experience
-            - Analogy: F1 vs off-road
-            - I could see a way that we might make it a switchable system
+            <img style="width: 50%;" src="imgs/apicurio.png">
+            https://github.com/apicurio
+
+            API tooling
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            # Open Source
+
+            <img style="width: 50%;" src="imgs/fabric8.png">
+            https://github.com/fabric8io/kubernetes-client
+
+            Java to Kubernetes Resources
+            Kubernetes resources to Java
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            # Open Source
+
+            <img style="width: 50%;" src="imgs/kiota.png">
+            https://github.com/microsoft/kiota
+
+            OpenAPI client SDK generation
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            # Open Source
+
+            <img style="width: 50%;" src="imgs/chicory1.png">
+            https://github.com/cylibso/chicory
+
+            Wasm runtime in pure Java
           </textarea>
         </section>
       </section>
@@ -254,20 +276,35 @@
       <section>
         <section data-markdown>
           <textarea data-template>
-            # Wazero
+            # Why The JVM: 30 Years of Value Creation
 
-            <img style="width: 50%;" src="imgs/javago.png">
-            <br />
-
-            Following the lead
+            <div class="row">
+              <div class="col" style="background: inherit;">
+                <ul>
+                  <li>Enterprise</li>
+                  <li>Cloud</li>
+                  <li>Mobile</li>
+                  <li>Tools and Services</li>
+                  <li>Manufacturers</li>
+                  <li>Banks and Finance</li>
+                  <li>Healthcare</li>
+                  <li>Insurance</li>
+                </ul>
+              </div>
+              <div class="col">
+                <img style="width: 70%;" src="imgs/java-servers.jpeg">
+                <br />
+              </div>
+            </div>
 
             Note:
 
-            - We are not the first to have done this
-            - We consider ourselves spiritual cousins to Wazero
-            - Credit to Edoardo for this incredible work of art
-            - Although Go and Java are very different, linking to native code creates similiar problems
-            - We think this problem is not unique to these two languages
+            - Second, and most important to this project, Is the mountain of value that has been created by the JVM.
+            - Stop for a second and reflect on how deeply the JVM is emebedded into the modern economy.
+            - There's 30 years of JVM software in the world creating hundreds of billions of dollars in value across
+            nearly all business verticals. (conservative estimate)
+            - Think about all the massive public companies that are built on the JVM.
+            - Think about the ecosystems as well, like Android that, power billions of devices across the world.
           </textarea>
         </section>
       </section>
@@ -275,21 +312,14 @@
       <section>
         <section data-markdown>
           <textarea data-template>
-            # Introducing Chicory
+            # Chicory respecting the JVM Boundaries
 
-            <img src="./imgs/chicory1.png" height="30%" width="30%" style="height: 30%; width: 30%;"></img>
-            <br />
-
-            [https://github.com/dylibso/chicory](https://github.com/dylibso/chicory)
-
-            Note:
-
-            - Andrea is going to talk about
-            - how the project came to be
-            - what techniques we're using
-            - what use cases have emerged
-            - and what the future holds and how you can get involved
-
+            - Guaranteed Memory Safety
+            - Fault Isolation
+            - Super advanced JIT
+            - Self contained programs
+            - WORA: (Write once run anywhere) Platform independent bytecode
+            - ... more!
           </textarea>
         </section>
       </section>
@@ -297,18 +327,9 @@
       <section>
         <section data-markdown>
           <textarea data-template>
-            # Inception
+            # Compilers as transformations
 
-            - side project
-            - 6 months of development
-
-            Note:
-            Edoardo Vacchi introduced me to Ben and we shared the vision of a Java native Runtime for Wasm
-            We want it to be zero dependencies to be easily portable as possible.
-            In 6 months we got to the point where most of the V1 spec is implemented on the "happy path", making it
-            possible to run real world programs compiled to wasm, and
-            we started implementing the validation logic.
-
+            <img style="width: 50%;" src="imgs/transform.jpeg">
           </textarea>
         </section>
       </section>
@@ -316,21 +337,13 @@
       <section>
         <section data-markdown>
           <textarea data-template>
-            # Build a language native runtime 1/2
+            # nonorthodox compilers
 
-            - generate code for `OpCodes`
-            - wasm corpus
-            - maven plugins
-            - code generators
-
-            <br />
-            code in vcs: 13K LOC
-            <br />
-            with generated: 250K LOC
-
-            Note:
-
-            If you want to build a language native runtime for wasm those are the tools that are working for us.
+            - Code Generators
+            - Linters
+            - ETL pipelines
+            - UI
+            - ...
           </textarea>
         </section>
       </section>
@@ -338,26 +351,35 @@
       <section>
         <section data-markdown>
           <textarea data-template>
-            # Build a language native runtime 2/2
-            generate tests!
+            # Compilers in a developer journey
 
-            - download the [WebAssembly/testsuite](https://github.com/WebAssembly/testsuite)
-            - download [`wast2json`](https://github.com/WebAssembly/wabt)
-            - use `wast2json` on the `testsuite` `.wast` files
-            - get `json` + `compiled programs`
-            - generate JUnit from the `json`
-
-            Note:
-
-            Those are the steps to generate JUnit tests from the testsuite
+            - shared mental model
+            - structured
+            - collaboration
           </textarea>
         </section>
       </section>
 
+      <section data-markdown>
+        <textarea data-template>
+          # Thanks and Q&A
+
+          <a href="https://github.com/andreaTP/uni-wasm-deck">https://github.com/andreaTP/uni-wasm-deck</a>
+          <br />
+        </textarea>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          # Extra and optional slides
+        </textarea>
+      </section>
+
+      <!-- Extra and optional -->
       <section>
         <section data-markdown>
           <textarea data-template>
-            # Use cases
+            # Chicory Use cases
 
             Note:
           </textarea>
@@ -422,55 +444,6 @@
           Note:
 
           By using extension mechanisms we are scaling the complexity of the applications.
-        </textarea>
-      </section>
-      </section>
-
-      <section>
-        <section data-markdown>
-          <textarea data-template>
-            # Roadmap
-
-            - Make all tests green with the interpreter
-            - Implement validation logic
-            - WASI Preview 1 support
-            - Performance improvements
-            - AOT compiler (generate JVM bytecode from Wasm module)
-
-            Note:
-
-            Get involved! The codebase is pretty linear and we are not doing crazy stuffs most of the time!
-            There are low hanging fruit as the project is still pretty early
-          </textarea>
-        </section>
-      </section>
-
-      <section>
-        <section data-markdown>
-          <textarea data-template>
-            # Demo
-
-            https://github.com/dmarcos/llama2.c-web
-
-            <video height="50%" width="50%" style="height: 50%; width: 50%;" data-autoplay playbackRate=3 src="imgs/llamac.mkv"></video>
-            
-            Note:
-
-            This demo shouws running an LLM inference service based on llama.c
-            The code has been modified to not use the WASI support, but it works out of the box
-          </textarea>
-        </section>
-      </section>
-
-      <section data-markdown>
-        <textarea data-template>
-          # Thanks and Q&A
-
-          <img src="./imgs/contributors.png" height="30%" width="30%" style="height: 30%; width: 30%;"></img>
-
-          <br />
-          <a href="https://github.com/andreaTP/chicory-wasmio-deck">https://github.com/andreaTP/chicory-wasmio-deck</a>
-          <br />
         </textarea>
       </section>
 
