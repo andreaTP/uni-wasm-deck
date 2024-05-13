@@ -4,3 +4,5 @@ bin
 target
 .env
 /demo/chicory
+/demo/wat2wasm
+demo/fact/iterfact.wasm
